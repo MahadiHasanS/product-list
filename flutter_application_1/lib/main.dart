@@ -4,6 +4,7 @@ import 'package:flutter_application_1/itemWidget.dart';
 
 void main(List<String> args) {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     title: 'App',
     home: myApp(),
   ));
