@@ -27,6 +27,13 @@ class _myAppState extends State<myApp> {
           itemBuilder: (context, index) {
             return ItemWidget(item: dummyList[index]);
           }),
+      appBar: AppBar(
+        title: Text(
+          'This is AppBar',
+          style: TextStyle(fontSize: 16),
+        ),
+        centerTitle: true,
+      ),
     );
   }
 }
